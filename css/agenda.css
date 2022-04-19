@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rotateAnimation {
+    margin-top: 50px;
+    float: left;
+    width: 150px;
+    margin-left: 25%;
+    animation-name: rotacioAnimacio;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.rotateAnimation img {
+    width: 180px;
+}
+
+@keyframes rotacioAnimacio {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+main section table {
+    font-size: 30px;
+    background-color: white;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+main section table caption{
+font-size: 25px;
+color:yellow;
+background: black;
+}
+
+main section h2{
+    font-size: 40px;
+    color: yellow;
+    float: left;
+    margin-top: 10%;
+    background: black;
+    width: 25%;
+}
+main section p{
+        margin-top: 15%;
+}
+

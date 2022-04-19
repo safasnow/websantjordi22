@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    background: url('./../img/sant_jordi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+
+main section iframe{
+    display: inline-block;
+    background:rgb(217, 212, 212);
+
+    margin-top: 5%;
+    width: 40%;
+    min-height: 30vh; 
+    height: 50vh; 
+    margin-left: 5%;
+    padding: 1%;
+
+    border-top-width: 5px;
+    border-bottom-width: 20px;
+
+    box-shadow: 40px 40px 20px #000;          
+    border-radius: 40px;  
+
+}
+.rotateAnimation {
+    margin-top: 50px;
+    float: left;
+    width: 150px;
+    margin-left: 25%;
+    animation-name: rotacioAnimacio;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.rotateAnimation img {
+    width: 180px;
+}
+
+@keyframes rotacioAnimacio {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+footer {
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 40%
+}

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main section{
+    margin-top: 80px;
+
+
+}
+.rotateAnimation {
+    margin-top: 50px;
+    float: left;
+    width: 150px;
+    margin-left: 25%;
+    animation-name: rotacioAnimacio;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.rotateAnimation img {
+    width: 180px;
+}
+
+@keyframes rotacioAnimacio {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+main section h2{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    float: left;
+    margin-top: 1%;
+    padding-bottom: 5px;
+
+}
+main section p{
+    padding-bottom: 22px;
+
+}
+.llibres{
+    animation-name: colors;
+    animation-duration: 10s;
+}
+@keyframes colors {
+    0% {background: gold}
+    25% {background: red}
+    50% {background: green}
+    75% {background: white}
+}
+footer {
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 40%
+}
